@@ -105,5 +105,3 @@ jobs:
     - name: Publish to NPM
       if: github.event_name == 'push' && contains(github.ref, 'refs/tags/') && success() && matrix.os == 'ubuntu-16.04'
       run: npm publish --access public
-      env:
-        NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
