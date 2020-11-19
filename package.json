@@ -3,7 +3,7 @@
   "typings": "keytar.d.ts",
   "name": "@dennisameling/keytar-temp",
   "description": "Bindings to native Mac/Linux/Windows password APIs",
-  "version": "7.2.4-beta",
+  "version": "7.2.5-beta",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -41,8 +41,7 @@
     "prebuild-electron-arm64": "prebuild -t 7.0.0 -t 8.0.0 -t 9.0.0 -t 10.0.0 -t 11.0.0 -r electron -a arm64 --strip",
     "prebuild-electron-arm64-mac": "prebuild -t 11.0.0 -r electron -a arm64 --strip",
     "prebuild-electron-ia32": "prebuild -t 7.0.0 -t 8.0.0 -t 9.0.0 -t 10.0.0 -t 11.0.0 -r electron -a ia32 --strip",
-    "upload": "node ./script/upload.js",
-    "postpublish": "git push --follow-tags"
+    "upload": "node ./script/upload.js"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
