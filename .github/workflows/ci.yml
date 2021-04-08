@@ -106,7 +106,7 @@ jobs:
         GITHUB_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   alpine-build:
-    if: true === false
+    if: true == false
     runs-on: ubuntu-latest
     container: node:15-alpine3.12
     steps:
