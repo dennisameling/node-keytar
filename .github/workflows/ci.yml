@@ -22,10 +22,8 @@ jobs:
     strategy:
       matrix:
         node-version: [15.x]
-        os: [ubuntu-16.04, windows-latest, macos-latest]
+        os: [windows-latest, macos-latest]
         include:
-          - os: ubuntu-16.04
-            friendlyName: Ubuntu
           - os: windows-latest
             friendlyName: Windows
           - os: macos-latest
