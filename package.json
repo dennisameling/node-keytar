@@ -1,16 +1,16 @@
 {
   "main": "./lib/keytar.js",
   "typings": "keytar.d.ts",
-  "name": "keytar",
+  "name": "@dennisameling/keytar-temp",
   "description": "Bindings to native Mac/Linux/Windows password APIs",
-  "version": "7.6.0",
+  "version": "7.6.99-gh-desktop",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atom/node-keytar.git"
+    "url": "https://github.com/dennisameling/node-keytar.git"
   },
   "bugs": {
-    "url": "https://github.com/atom/node-keytar/issues"
+    "url": "https://github.com/dennisameling/node-keytar/issues"
   },
   "homepage": "http://atom.github.io/node-keytar",
   "keywords": [
